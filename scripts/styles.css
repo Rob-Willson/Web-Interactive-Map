@@ -57,25 +57,25 @@
 
 /* Prevents selection of text inside regions */
 .map-region-text::selection {
-    color: none;
-    background: none;
+	color: black;
+	background: none;
 }
 .map-region-text::-moz-selection {
-    color: none;
-    background: none;
+	color: black;
+	background: none;
 }
 
 .coming-soon {
-	fill: rgba(230, 230, 230);
-	opacity: 0.4;
+	fill: rgba(240, 240, 240);
+	stroke: rgb(171, 180, 161);
 }
 .coming-soon:hover {
-	fill: rgb(206, 231, 135);
+	fill: rgb(225, 240, 185);
+	stroke: rgb(100, 125, 75);
+	font-size: 25px;
 }
 
 .coming-soon-text {
-	fill: black;
-	opacity: 1;
 }
 
 .visually-hidden {
