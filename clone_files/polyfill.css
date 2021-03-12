@@ -1,0 +1,418 @@
+/* EXISTING */
+html body {
+line-height: 1.8;
+}
+html body p {
+margin-bottom: 15px;
+line-height: 24px;
+}
+html body h1, html body h2, html body h3, html body h4, html body h5, {
+line-height: 1.1;
+}
+html body h1 {
+font-size: 4em;
+}
+html body h2 {
+font-size: 3em;
+}
+html body h3 {
+font-size: 2.4em;
+}
+html body h4 {
+font-size: 2em;
+}
+html body h5 {
+font-size: 1.4em;
+}
+html body h6 {
+font-size: 1.2em;
+}
+/* Main Menu */
+html body .dropdown-menu ul.level-1 li a {
+color: #fff;
+font-family: 'LondrinaSolid';
+font-size: 20px !important;
+text-transform: uppercase;
+font-weight: 700;
+}
+html body .dropdown-menu ul.level-2 li a {
+color: #ff9e31;
+font-family: 'Ubuntu';
+font-size: 14px !important;
+text-transform: uppercase;
+font-weight: 200;
+}
+/* Menu Partner Portal*/
+html body .project-site-button-block .row {
+text-align: center;
+}
+html body.partner-portal #content #main-nav ul li a {
+color: #7cba32;
+font-weight: bold;
+}
+html body.partner-portal #content #main-nav ul li a:hover {
+color: #ff9e31;
+}
+html body.partner-portal #content #main-nav ul li.active a,
+html body.partner-portal #content #main-nav ul li.active a:hover {
+color: #ff9e31;
+}
+html body:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon):hover,
+html body:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon):hover:before,
+html body a.return_to_partner_portal,
+html body a.logout-link {
+color: #f1e4bb !important;
+}
+html body:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon):before,
+html body:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon),
+html body a.return_to_partner_portal:hover,
+html body a.logout-link:hover {
+color: #fff !important;
+}
+html body .dropdown-menu ul.level-1 li.is-dropdown-submenu-parent > a::after {
+border-color: #f1e4bb transparent transparent;
+}
+html body:not(.partner-portal) .socialnetworkblock ul.social-networks li a:before {
+color: #fff;
+}
+html body:not(.partner-portal) .socialnetworkblock ul.social-networks li a:hover:before {
+color: #f1e4bb;
+}
+/* Metrics Tiles - HOC3-9492*/
+html body .hocMetricTile {
+border: 5px solid #7CBA32;
+padding: 10px;
+width: 32%;
+float: left;
+text-align: center;
+min-width: 275px;
+margin: 5px;
+}
+html body.mobile .hocMetricTile {
+border: 5px solid #7CBA32;
+padding: 10px;
+width: 99%;
+float: left;
+text-align: center;
+min-width: 275px;
+margin: 5px;
+}
+/*Fix login button color in tablet and mobile mode*/
+html body.tablet:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon):before,
+html body.tablet:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon),
+html body.tablet a.return_to_partner_portal:hover,
+html body.tablet a.logout-link:hover {
+color: #7cba32 !important;
+}
+html body.mobile:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon):before,
+html body.mobile:not(.partner-portal):not(.default-type) .login-block .login_button:not(.login-style-button):not(.login-style-link-icon),
+html body.mobile a.return_to_partner_portal:hover,
+html body.mobile a.logout-link:hover {
+color: #7cba32 !important;
+}
+/* Listing Block Chat Layout */
+html body .comments-timeline-container .container-left {
+background-color: #f7fef7;
+border: 1px solid #88e188;
+}
+html body .searchresultblock #opportunities-search-block .content-section .opportunities-result .view-more-total .content-container .view-more-link .paragraph span {
+vertical-align: initial;
+}
+/* Partner Page Layout - Side Menu */
+#container-block-45271 .menu-block.vertical-menu.level-1 li.is-dropdown-submenu-parent > a::after {
+border-color: #f1e4bb transparent transparent;
+}
+#container-block-45271 .menu-block.vertical-menu.row {
+text-align: center;
+},
+#container-block-45271 .menu-block.vertical-menu ul li a {
+color: #7cba32;
+font-weight: bold;
+width: 100%;
+display: inline-block;
+}
+#container-block-45271 .menu-block.vertical-menu ul li a:hover {
+color: #ff9e31;
+font-weight: bold;
+}
+/* Initiate Web Behaviour Tracking (this section MUST come prior any other dmPt calls)
+/* Do not change this */
+(function(w,d,u,t,o,c){w['dmtrackingobjectname']=o;c=d.createElement(t);c.async=1;c.src=u;t=d.getElementsByTagName (t)[0];t.parentNode.insertBefore(c,t);w[o]=w[o]||function(){(w[o].q=w[o].q||[]).push(arguments);}; })(window, document, '//static.trackedweb.net/js/_dmptv4.js', 'script', 'dmPt');
+window.dmPt('create', 'DM-7070324694-01', 'foodcycle.org.uk');
+window.dmPt('track');
+// window.dmPt("identify", "test@test.com");  // Hardcoded example, inject contact email address.
+/*Listing Block Height Restrictions*/
+#image-crop {
+height: 100px;
+width: auto;
+}
+#image-thumbnail {
+height: 50px;
+width: 50px;
+}
+/*FoodCycle Button Update*/
+.fsbutton {
+display: inline-block;
+border-radius: 4px;
+background-color: #CEE787; /* FoodCycle Light Green */
+border: none;
+color: #000000;
+text-align: center;
+font-size: 26px;
+text-transform: uppercase;
+padding: 20px;
+width: 275px;
+transition-duration: 0.4s;
+cursor: pointer;
+margin: 5px;
+}
+.fsbutton:hover {
+background-color: #7CBA32; /* FoodCycle Dark Green */
+color: #FF0000;
+}
+html body .searchresultblock #opportunities-search-block .content-section .opportunities-result {
+clear: both;
+padding-top: 10px;
+}
+</style>
+<style>
+	@font-face {
+	font-family: 'FontAwesome';
+	src: url("../fonts/fontAwesome/fontawesome-webfont.eot");
+	src: url("../fonts/fontAwesome/fontawesome-webfont.eot") format("embedded-opentype"), url("../fonts/fontAwesome/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/fontAwesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontAwesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Flaticon';
+	src: url("../fonts/flaticons/flaticon.eot");
+	src: url("../fonts/flaticons/flaticon.eot") format("embedded-opentype"), url("../fonts/flaticons/flaticon.woff2") format("woff2"), url("../fonts/flaticons/flaticon.woff") format("woff"), url("../fonts/flaticons/flaticon.ttf") format("truetype"), url("../fonts/flaticons/flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Lucida Grande';
+	src: url("../fonts/lucidaGrande/lucida_grande_regular-webfont.eot");
+	src: url("../fonts/lucidaGrande/lucida_grande_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.woff2") format("woff2"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.woff") format("woff"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.ttf") format("truetype"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.svg#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Bitstream Vera Sans';
+	src: url("../fonts/bitstreamVeraSans/vera-webfont.eot");
+	src: url("../fonts/bitstreamVeraSans/vera-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bitstreamVeraSans/vera-webfont.woff2") format("woff2"), url("../fonts/bitstreamVeraSans/vera-webfont.woff") format("woff"), url("../fonts/bitstreamVeraSans/vera-webfont.ttf") format("truetype"), url("../fonts/bitstreamVeraSans/vera-webfont.svg#bitstream_vera_sansroman") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Lucida Grande Bold';
+	src: url("../fonts/lucidaGrande/lucida_grande_bold-webfont.eot");
+	src: url("../fonts/lucidaGrande/lucida_grande_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.woff2") format("woff2"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.woff") format("woff"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.ttf") format("truetype"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.svg#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Tiempos';
+	src: url("../fonts/Tiempos/TiemposTextWeb-Regular-eot.eot");
+	src: url("../fonts/Tiempos/TiemposTextWeb-Regular-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/Tiempos/TiemposTextWeb-Regular-woff2.woff2") format("woff2"), url("../fonts/Tiempos/TiemposTextWeb-Regular-woff.woff") format("woff"), url("../fonts/Tiempos/TiemposTextWeb-Regular-ttf.ttf") format("truetype"), url("../fonts/Tiempos/TiemposTextWeb-Regular-svg.svg") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Tiempos Semibold';
+	src: url("../fonts/TiemposSemibold/TiemposSemibold.eot");
+	src: url("../fonts/TiemposSemibold/TiemposSemibold.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposSemibold/TiemposSemibold.woff") format("woff"), url("../fonts/TiemposSemibold/TiemposSemibold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal
+	}
+	/* General */
+	html body {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #76787b;
+	}
+	html body #main-content {
+	font-family: 'Ubuntu';
+	}
+	html body p {
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #3d3936
+	}
+	html body h1,
+	html body h2,
+	html body h3,
+	html body h4,
+	html body h5,
+	html body h6 {
+	font-family: 'LondrinaSolid';
+	line-height: 1.1;
+	color: #ffffff;
+	}
+	html body h1 {
+	font-size: 4.5em;
+	}
+	html body h2 {
+	font-size: 2.8em;
+	color: #ff9e31
+	}
+	html body h3 {
+	font-size: 2.4em;
+	color: #ff9e31;
+	font-family: 'LondrinaSolid';
+	}
+	html body h4 {
+	font-size: 2em;
+	}
+	html body h5 {
+	font-size: 1.4em;
+	font-family: 'Ubuntu';
+	color: #3d3936;
+	}
+	html body h6 {
+	font-size: 1.2em;
+	}
+	/* Main Menu */
+	html body .dropdown-menu ul.level-1 li a {
+	color: #fff;
+	font-family: 'LondrinaSolid';
+	font-size: 20px !important;
+	text-transform: uppercase;
+	font-weight: 700;
+	}
+	html body .dropdown-menu ul.level-2 li a {
+	color: #ff9e31;
+	font-family: Ubuntu;
+	font-size: 13px !important;
+	text-transform: uppercase;
+	font-weight: 200;
+	}
+	/* Social media icons */
+	html body .socialnetworkblock ul.social-networks {
+	margin: 5px auto;
+	}
+	html body .socialnetworkblock ul.social-networks li a {
+	color: #fff;
+	}
+	html body .socialnetworkblock ul.social-networks li a:before {
+	color: #fff;
+	}
+	/* Metrics Block - HOC3-9492 */
+	html body #container-block-37776 {
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	}
+	@font-face {
+	font-family: 'FontAwesome';
+	src: url("../fonts/fontAwesome/fontawesome-webfont.eot");
+	src: url("../fonts/fontAwesome/fontawesome-webfont.eot") format("embedded-opentype"), url("../fonts/fontAwesome/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/fontAwesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontAwesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Flaticon';
+	src: url("../fonts/flaticons/flaticon.eot");
+	src: url("../fonts/flaticons/flaticon.eot") format("embedded-opentype"), url("../fonts/flaticons/flaticon.woff2") format("woff2"), url("../fonts/flaticons/flaticon.woff") format("woff"), url("../fonts/flaticons/flaticon.ttf") format("truetype"), url("../fonts/flaticons/flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Lucida Grande';
+	src: url("../fonts/lucidaGrande/lucida_grande_regular-webfont.eot");
+	src: url("../fonts/lucidaGrande/lucida_grande_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.woff2") format("woff2"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.woff") format("woff"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.ttf") format("truetype"), url("../fonts/lucidaGrande/lucida_grande_regular-webfont.svg#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Bitstream Vera Sans';
+	src: url("../fonts/bitstreamVeraSans/vera-webfont.eot");
+	src: url("../fonts/bitstreamVeraSans/vera-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bitstreamVeraSans/vera-webfont.woff2") format("woff2"), url("../fonts/bitstreamVeraSans/vera-webfont.woff") format("woff"), url("../fonts/bitstreamVeraSans/vera-webfont.ttf") format("truetype"), url("../fonts/bitstreamVeraSans/vera-webfont.svg#bitstream_vera_sansroman") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Lucida Grande Bold';
+	src: url("../fonts/lucidaGrande/lucida_grande_bold-webfont.eot");
+	src: url("../fonts/lucidaGrande/lucida_grande_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.woff2") format("woff2"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.woff") format("woff"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.ttf") format("truetype"), url("../fonts/lucidaGrande/lucida_grande_bold-webfont.svg#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Tiempos';
+	src: url("../fonts/Tiempos/TiemposTextWeb-Regular-eot.eot");
+	src: url("../fonts/Tiempos/TiemposTextWeb-Regular-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/Tiempos/TiemposTextWeb-Regular-woff2.woff2") format("woff2"), url("../fonts/Tiempos/TiemposTextWeb-Regular-woff.woff") format("woff"), url("../fonts/Tiempos/TiemposTextWeb-Regular-ttf.ttf") format("truetype"), url("../fonts/Tiempos/TiemposTextWeb-Regular-svg.svg") format("svg");
+	font-weight: normal;
+	font-style: normal
+	}
+	@font-face {
+	font-family: 'Tiempos Semibold';
+	src: url("../fonts/TiemposSemibold/TiemposSemibold.eot");
+	src: url("../fonts/TiemposSemibold/TiemposSemibold.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposSemibold/TiemposSemibold.woff") format("woff"), url("../fonts/TiemposSemibold/TiemposSemibold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal
+	}
+	/* General */
+	html body {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #76787b;
+	}
+	html body #main-content {
+	font-family: 'Ubuntu';
+	}
+	html body p {
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #3d3936
+	}
+	html body h1,
+	html body h2,
+	html body h3,
+	html body h4,
+	html body h5,
+	html body h6 {
+	font-family: 'LondrinaSolid';
+	line-height: 1.1;
+	color: #ffffff;
+	}
+	html body h1 {
+	font-size: 4.5em;
+	}
+	html body h2 {
+	font-size: 2.8em;
+	color: #ff9e31
+	}
+	html body h3 {
+	font-size: 2.4em;
+	color: #ff9e31 font-family: 'LondrinaSolid';
+	}
+	html body h4 {
+	font-size: 2em;
+	}
+	html body h5 {
+	font-size: 1.4em;
+	font-family: 'Ubuntu';
+	color: #3d3936;
+	}
+	html body h6 {
+	font-size: 1.2em;
+	}
+	/* Main Menu */
+	html body .dropdown-menu ul.level-1 li a {
+	color: #fff;
+	font-family: 'LondrinaSolid';
+	font-size: 20px !important;
+	text-transform: uppercase;
+	font-weight: 700;
+	}
+	html body .dropdown-menu ul.level-2 li a {
+	color: #ff9e31;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px !important;
+	text-transform: uppercase;
+	font-weight: 200;
+	}
