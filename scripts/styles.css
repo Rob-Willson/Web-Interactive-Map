@@ -1,23 +1,33 @@
+/* CAN BE REMOVED */
 @font-face {
     font-family: "LondrinaSolid";
     src: url("../fonts/LondrinaSolid.ttf");
 }
-
-body {
-	font-family: 'LondrinaSolid';
-	line-height: 1.5;
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuRegular.ttf");
+}
+@font-face {
+    font-family: "UbuntuBold";
+    src: url("../fonts/UbuntuBold.ttf");
 }
 
-h1 {
-	color: red;
-	font-size: 60px;
-	font-family: 'LondrinaSolid';
-	font-weight: 100;
-	padding: 25px 60px 0 30px;
+
+/* TRANSFER TO INTERNAL STYLE FILES */
+/* The container for the map. Adjust width  */
+.map-container {
+	width: 100%;
+	height: auto;
+	border: 1px solid #f1f1f1;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-svg {
-	/*background-color: red;*/
+.map {
+	width: 100%;
+	max-height: 800px;
+	margin: 0 auto 0 auto;
+	display: block;
 }
 
 .map-region {
@@ -38,20 +48,39 @@ svg {
 }
 
 .map-region-text {
+	font-family: 'LondrinaSolid';
+	line-height: 1.5;
 	fill: white;
 	stroke: rgb(50, 75, 20);
 	stroke-width: 1px;
 }
 
-.coming-soon {
-	fill: #e6e6e6;
-	opacity: 0.4;
+/* Prevents selection of text inside regions */
+.map-region-text::selection {
+    color: none;
+    background: none;
+}
+.map-region-text::-moz-selection {
+    color: none;
+    background: none;
 }
 
+.coming-soon {
+	fill: rgba(230, 230, 230);
+	opacity: 0.4;
+}
 .coming-soon:hover {
 	fill: rgb(206, 231, 135);
+}
+
+.coming-soon-text {
+	fill: black;
+	opacity: 1;
 }
 
 .visually-hidden {
 	
 }
+
+
+
