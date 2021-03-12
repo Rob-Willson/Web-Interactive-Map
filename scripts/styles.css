@@ -1,14 +1,57 @@
+@font-face {
+    font-family: "LondrinaSolid";
+    src: url("../fonts/LondrinaSolid.ttf");
+}
+
 body {
-	font-family:Tahoma, Helvetica, Arial narrow, Arial, sans-serif;
-	background-color:rgba(255,255,255,1);
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
+	font-family: 'LondrinaSolid';
 	line-height: 1.5;
 }
 
-.test {
-	fill:#ffc8c8;
+h1 {
+	color: red;
+	font-size: 60px;
+	font-family: 'LondrinaSolid';
+	font-weight: 100;
+	padding: 25px 60px 0 30px;
 }
-.test:hover {
-	fill:#ffffc8;
+
+svg {
+	/*background-color: red;*/
+}
+
+.map-region {
+	fill: rgb(124, 186, 50);
+	transition: all 0.25s ease-in-out;
+	font-size: 0px;
+	text-anchor: middle;
+	stroke: rgb(50, 75, 20);
+	stroke-width: 0.75px;
+	stroke-miterlimit: 0;
+	stroke-dasharray: none;
+}
+.map-region:hover {
+	fill:#ff9e31;
+	transition: all 0.25s ease-in-out;
+	font-size: 35px;
+	text-anchor: middle;
+}
+
+.map-region-text {
+	fill: white;
+	stroke: rgb(50, 75, 20);
+	stroke-width: 1px;
+}
+
+.coming-soon {
+	fill: #e6e6e6;
+	opacity: 0.4;
+}
+
+.coming-soon:hover {
+	fill: rgb(206, 231, 135);
+}
+
+.visually-hidden {
+	
 }
