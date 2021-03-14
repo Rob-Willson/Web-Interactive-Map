@@ -45,7 +45,19 @@
 	transition: all 0.25s ease-in-out;
 	font-size: 35px;
 	text-anchor: middle;
+	z-index: 0;
 }
+
+
+.map-region-hover {
+	fill:#ff0000;
+	transition: all 0.25s ease-in-out;
+	font-size: 35px;
+	text-anchor: middle;
+	z-index: 1;
+}
+
+
 
 .map-region-text {
 	font-family: 'LondrinaSolid';
@@ -53,7 +65,7 @@
 	fill: white;
 	stroke: rgb(50, 75, 20);
 	stroke-width: 1px;
-	pointer-events: none;
+	/* pointer-events: none; */
 }
 
 .coming-soon {
@@ -65,6 +77,13 @@
 	stroke: rgb(100, 125, 75);
 	font-size: 25px;
 }
+
+
+
+
+
+
+
 
 .coming-soon-text {
 }
