@@ -13,8 +13,8 @@
 }
 
 
+
 /* TRANSFER TO INTERNAL STYLE FILES */
-/* The container for the map. Adjust width  */
 .map-container {
 	width: 100%;
 	height: auto;
@@ -25,7 +25,7 @@
 
 .map {
 	width: 100%;
-	max-height: 800px;
+	max-height: 700px;
 	margin: 0 auto 0 auto;
 	display: block;
 }
@@ -33,7 +33,7 @@
 .map-region {
 	fill: rgb(124, 186, 50);
 	transition: all 0.25s ease-in-out;
-	font-size: 10px;
+	font-size: 0px;
 	text-anchor: middle;
 	stroke: rgb(50, 75, 20);
 	stroke-width: 0.75px;
@@ -55,38 +55,29 @@
 	text-anchor: middle;
 }
 
-
-
 .map-region-text {
 	font-family: 'LondrinaSolid';
 	line-height: 1.5;
 	fill: white;
 	stroke: rgb(50, 75, 20);
 	stroke-width: 1px;
-	/* pointer-events: none; */
+	pointer-events: none;
 }
 
 .coming-soon {
-	fill: rgba(240, 240, 240);
-	stroke: rgb(171, 180, 161);
+	fill: rgba(240, 240, 240, 1);
+	stroke: rgba(170, 180, 160, 1);
 }
 .coming-soon:hover {
-	fill: rgb(225, 240, 185);
-	stroke: rgb(100, 125, 75);
+	fill: rgba(225, 240, 185, 1);
+	stroke: rgba(100, 125, 75, 1);
 	font-size: 25px;
 }
 
-
-
-
-
-
-
-
-.coming-soon-text {
+.bg-gradient-scotland {
+  fill: url(#header-shape-gradient) #fff;
+	stroke: url(#header-shape-gradient-stroke) #fff;
 }
-
-.visually-hidden {
+.bg-gradient-scotland:hover {
+  fill: url(#header-shape-gradient-hover) #fff;
 }
-
-
