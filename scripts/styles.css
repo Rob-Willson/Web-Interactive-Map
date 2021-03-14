@@ -33,28 +33,26 @@
 .map-region {
 	fill: rgb(124, 186, 50);
 	transition: all 0.25s ease-in-out;
-	font-size: 0px;
+	font-size: 10px;
 	text-anchor: middle;
 	stroke: rgb(50, 75, 20);
 	stroke-width: 0.75px;
 	stroke-miterlimit: 0;
 	stroke-dasharray: none;
 }
+
 .map-region:hover {
 	fill:#ff9e31;
 	transition: all 0.25s ease-in-out;
 	font-size: 35px;
 	text-anchor: middle;
-	z-index: 0;
 }
-
 
 .map-region-hover {
 	fill:#ff0000;
 	transition: all 0.25s ease-in-out;
 	font-size: 35px;
 	text-anchor: middle;
-	z-index: 1;
 }
 
 
