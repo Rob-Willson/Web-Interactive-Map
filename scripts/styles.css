@@ -75,9 +75,9 @@
 }
 
 .bg-gradient-scotland {
-  fill: url(#header-shape-gradient) #fff;
-	stroke: url(#header-shape-gradient-stroke) #fff;
+  fill: url(#scotland-gradient-background) #fff;
+	stroke: url(#scotland-gradient-stroke) #fff;
 }
 .bg-gradient-scotland:hover {
-  fill: url(#header-shape-gradient-hover) #fff;
+  fill: url(#scotland-gradient-background-hover) #fff;
 }
