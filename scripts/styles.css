@@ -53,16 +53,7 @@
 	fill: white;
 	stroke: rgb(50, 75, 20);
 	stroke-width: 1px;
-}
-
-/* Prevents selection of text inside regions */
-.map-region-text::selection {
-	color: black;
-	background: none;
-}
-.map-region-text::-moz-selection {
-	color: black;
-	background: none;
+	pointer-events: none;
 }
 
 .coming-soon {
@@ -79,8 +70,6 @@
 }
 
 .visually-hidden {
-	
 }
-
 
 
